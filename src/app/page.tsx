@@ -2,7 +2,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import Text from "../assets/images/logo.svg";
-import TextBigger from "../assets/images/logo-bigger.png";
 import Play from "../assets/images/icon-play.svg";
 import styled from "styled-components";
 import Background from "@/components/Background";
@@ -13,16 +12,11 @@ export default function Home() {
       <Background />
       <div className="w-screen h-screen flex justify-center items-center">
         <div className="bg-gradient-to-b from-[#344ABA] to-[rgba(0,20,121,.8)] rounded-[48px] md:rounded-[72px] shadow-[0_-8px_0_4px_#140E66_inset,_0_6px_0_8px_#2463FF_inset] w-[324px] md:w-[592px] relative">
-          <div className="absolute top-[-50px] md:top-[-110px]">
+          <div className="absolute top-[-50px] md:top-[-100px]">
             <Image
               src={Text}
               alt="logo"
-              className="md:hidden w-[263px] h-[130.2px] ml-[30px]"
-            />
-            <Image
-              src={TextBigger}
-              alt="logo"
-              className="hidden md:block w-[373.69px] h-auto ml-[111px]"
+              className="w-[263px] h-auto ml-[30px] md:w-[373.69px] md:ml-[111px]"
             />
           </div>
           <div className="mt-[138px]">
