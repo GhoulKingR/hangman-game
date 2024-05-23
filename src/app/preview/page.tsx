@@ -6,6 +6,7 @@ import Menu from "@/assets/images/icon-menu.svg";
 import Heart from "@/assets/images/icon-heart.svg";
 import Image from "next/image";
 import styled from "styled-components";
+import Link from "next/link";
 
 function Page() {
   const category = "COUNTRY";
@@ -76,6 +77,14 @@ function Page() {
             </KeyTile>
           );
         })}
+      </div>
+
+      <div className="sticky bottom-0 left-0 w-screen p-3 flex justify-center bg-red-400">
+        This is a preview, if you want to play the game go to the{" "}
+        <Link href="/" className="ml-1">
+          main menu
+        </Link>
+        .
       </div>
     </div>
   );
