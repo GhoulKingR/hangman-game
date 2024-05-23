@@ -16,8 +16,14 @@
   }
 }
 
+@font-face {
+  font-family: MouseMemoirs;
+  src: url(../assets/fonts/MouseMemoirs-Regular.ttf);
+}
+
 body {
   color: rgb(var(--foreground-rgb));
+  font-family: MouseMemoirs !important;
   background: linear-gradient(
       to bottom,
       transparent,
