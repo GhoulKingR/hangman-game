@@ -1,4 +1,4 @@
-# FrontendMentor Dictionary App Project
+# The Hangman Game
 
 ![preview](https://github.com/GhoulKingR/hangman-game/assets/87097037/709fbf7e-b2a5-41fe-a6a8-7c67ac7e7adb)
 
