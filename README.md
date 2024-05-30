@@ -2,30 +2,59 @@
 
 ![preview](https://github.com/GhoulKingR/hangman-game/assets/87097037/709fbf7e-b2a5-41fe-a6a8-7c67ac7e7adb)
 
-Enjoy a simple game of Hangman with this project. Hangman is single player game where the computer picks a word at random based on a category player selects, and the play has to guess the letters that are included in the word. The player has the chance to guess wrong 10 times before the game is restarted with a different word.
+## Description
 
-The tools I use in building this web app are:
-* Next.js
-* TailwindCSS
-* Bootstrap
-* TypeScript
-* Styled components
+**The Hangman Game** is a web application that lets you play the classic Hangman game against the computer. Hangman is a word-guessing game where players attempt to guess a hidden word by suggesting letters within a limited number of guesses. In this version, the computer picks a random word from a chosen category.
 
-You can have a look at the live site at https://ghoulkingr.github.io/hangman-game. This project is my solution to the Frontend mentor exercise at https://www.frontendmentor.io/challenges/hangman-game-rsQiSVLGWn.
+## Table of Contents
+1. [Features](#features)
+2. [Technologies Used](#technologies-used)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Live Site](#live-site)
+6. [License](#license)
 
-# Running this project locally
+## Features
+- Play Hangman against the computer
+- Choose from various word categories
+- Interactive and user-friendly interface
 
-If you want to run this project on your system, run these commands in your terminal:
-```bash
-# clone this project
-git cone https://github.com/GhoulKingR/dictionary-app.git
+## Technologies Used
+- Next.js
+- TailwindCSS
+- Bootstrap
+- TypeScript
+- Styled-components
 
-# open the project in the terminal
-cd dictionary-app
+## Installation
 
-# install dependencies
-npm i
+### Prerequisites
+- Node.js installed on your machine
 
-# run the development server
-npm run dev
-```
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/GhoulKingR/hangman-game.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd hangman-game
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+## Usage
+### Running the development server
+1. Start the server:
+   ```bash
+   npm run dev
+   ```
+2. Open [http://localhost:3000](http://localhost:3000) in your browser to view the app.
+
+## Live Site
+- Visit the live site at [https://ghoulkingr.github.io/hangman-game](https://ghoulkingr.github.io/hangman-game).
+
+## License
+Distributed under the MIT License. See `LICENSE` for more information.
